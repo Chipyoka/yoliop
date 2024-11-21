@@ -1,0 +1,4 @@
+user{
+    username: user@root.com, 
+    password: 6uRAZzi4c!nH3jy
+}

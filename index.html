@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yoliop - A supabase login trial</title>
+  <meta name="theme-color" content="#0077ff">
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <main class="container">
+    <div class="login-container">
+        <!-- logo -->
+        <h1 class="logo">Yoliop</h1>
+        <!-- login form -->
+        <div class="start" id="start">
+             <h1>Login to Your Account</h1>
+             <input type="email" id="email" placeholder="Email" required />
+             <input type="password" id="password" placeholder="Password" required />
+             <button id="login-button">Login</button>
+         <div class="message" id="message"></div>
+        </div>
+        <!-- Redirect logged-in page -->
+        <div class="final" id="final">  
+         <h1>Logged In !</h1>
+         <p>The login was successful, meaning you managed to implement Auth with supabase. <br>Kudos !!</p>
+        </div>
+       </div>
+ </main>
+
+    <!-- salute -->
+  <div class="salute">
+    <a href="https://www.github.com/Chipyoka">From the Blackgeek 🚀</a>
+  </div>
+
+  <!-- javascript link -->
+  <script type="module"  src="script.js"></script>
+</body>
+</html>

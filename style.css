@@ -1,0 +1,79 @@
+body{
+    font-family: monospace;
+}
+.container {
+  background-color: #f4f4f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  margin: 0;
+}
+.final{
+    display: none;
+}
+.login-container {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+.login-container h1 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  color: #333;
+}
+.login-container input {
+  width: 100%;
+  padding: 0.8rem;
+  margin: 0.5rem 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+.login-container button {
+  width: 100%;
+  padding: 0.8rem;
+  background-color: #0077ff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.login-container button:hover {
+  background-color: #005bb5;
+}
+.message {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+div.salute  a{
+    font-size: .75rem;
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+}
+
+div.salute a:visited, div.salute a:focus, div.salute a:active{
+    color: #333;
+}
+div.salute a:hover{
+    text-decoration: underline;
+}
+
+div.salute{
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1.logo{
+    color:#0077ff;
+    letter-spacing: -0.11em;
+}
